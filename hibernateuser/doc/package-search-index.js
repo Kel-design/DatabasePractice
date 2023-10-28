@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.cupitmadland.hibernateuser"},{"l":"com.cupitmadland.hibernateuser.controller"},{"l":"com.cupitmadland.hibernateuser.model"},{"l":"com.cupitmadland.hibernateuser.util"}];updateSearchResults();
