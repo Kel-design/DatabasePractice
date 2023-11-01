@@ -13,7 +13,7 @@ public class ConnectionDAO {
 	protected ResultSet rs = null;
 	
 	public static Connection getConnection() {
-		final String dburl = "jdbc:mysql://localhost:3306/abcinc";
+		final String dburl = "jdbc:mysql://localhost:3306/abcincdb";
 		final String dbuser = "root";
 		final String dbpassword = "root";
 		try {
