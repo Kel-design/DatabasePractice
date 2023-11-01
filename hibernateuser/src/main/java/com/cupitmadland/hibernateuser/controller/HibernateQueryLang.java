@@ -98,7 +98,7 @@ public class HibernateQueryLang {
 	// FIX THE ABOVE METHOD!!
 		
 	}
-}
+
 
 
 

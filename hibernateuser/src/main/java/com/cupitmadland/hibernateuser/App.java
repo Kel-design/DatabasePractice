@@ -20,7 +20,7 @@ public class App
     	//obj.useNameParameters();
     	
     	
-    	obj.updateUser();
+    	//obj.updateUser();
     	
     	
     	
