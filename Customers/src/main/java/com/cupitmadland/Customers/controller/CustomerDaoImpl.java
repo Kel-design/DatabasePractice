@@ -61,7 +61,7 @@ public class CustomerDaoImpl extends ConnectionDao implements CustomerDao{
 	}catch(SQLException e) {
 		System.err.format("SQL State: %s\n%s", e.getSQLState(), e.getMessage());
 	}
-		return null;
+		//return null;
 	}
 	
 	@Override

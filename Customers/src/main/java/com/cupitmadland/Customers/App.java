@@ -20,7 +20,7 @@ public class App
       //obj.removeCustomerById(8);
       //System.out.println("--------Customer(s) deleted Successfully-------");
       
-      obj.getCustomerById(4, );
+      //obj.getCustomerById(4, );
       System.out.println("---------Customer(s) retrieved Successfully--------");
       
       
