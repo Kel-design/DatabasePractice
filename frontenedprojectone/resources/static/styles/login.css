@@ -1,0 +1,17 @@
+@charset "ISO-8859-1";
+
+
+
+p::before {
+  content: "Read this: ";
+  }
+
+div::first-line {
+   color: blue;
+}
+
+div::first-letter {
+   color: red;
+}
+
+

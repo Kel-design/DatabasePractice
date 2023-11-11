@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+
+.block, 
+.block div {
+   width: 200px;
+   height: 300px;
+   text-align: center;
+   border: 5px black;
+   background-color: lightgrey;
+   box-shadow: 3px 3px 3px grey;
+}
