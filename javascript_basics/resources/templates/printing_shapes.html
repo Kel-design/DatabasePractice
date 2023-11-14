@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Printing Shapes</title>
+</head>
+
+<body>
+	
+	<script> 
+		
+		function printBox(){
+			
+			var width = parseInt(prompt("input width:"));
+			var height = parseInt(prompt("input height:"));
+		}
+		
+		var shape = "";
+		for(var i = 0; i < height; i++){
+			for(var j = 0; j < width; j++){
+				shape += "*";
+			}
+			
+			shape += "<br>";
+		}
+		
+		document.write("Shape:<br>");
+		
+		document.write(shape);
+	
+	</script>
+
+</body>
+
+</html>
