@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>History object</title>
+
+</head>
+<body>
+
+<a href="https://developer.mozilla.org/en-US/">Mdn</a>
+<a href="https://www.hackerrank.com/products/main/">Hacker rank</a>
+<a href="https://docs.emmet.io/cheat-sheet/">Emmet</a>
+<button id="back">back</button>
+<button id="forward">forward</button>
+<button>Go</button>
+<script>
+    const buttons = document.querySelectorAll("button");
+
+    buttons.forEach((function (e){
+        e.onclick = handleButtonPress;
+    }))
+
+    function handleButtonPress(e) {
+        if (e.target.id === "back") {
+            window.history.back();
+        }else if (e.target.id === "forward") {
+            window.history.forward();
+        }else {
+            window.history.go(-1);
+        }
+    }
+</script>
+</body>
+</html>

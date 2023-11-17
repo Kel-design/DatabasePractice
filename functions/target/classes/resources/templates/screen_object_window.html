@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Screen Object</title>
+    <style>
+        table,h3{
+        display: flex;
+        justify-content: center;
+        border-collapse: collapse;
+    }
+    th,td{
+        border: 1px solid #000;
+        width: 150px;
+        text-align: center;
+    }</style>
+</head>
+<body>
+<h3>Information about the screen</h3>
+<table>
+    <tr>
+        <th>available Width:</th>  <td id="aw"> </td>
+        <th>available Height:</th> <td id="ah"> </td>
+    </tr>
+    <tr>
+        <th>screen width:</th>  <td id="sw"></td>
+        <th>screen height:</th> <td id="sh"> </td>
+    </tr>
+    <tr> <th> color Depth:</th><td id="cd"></td></tr>
+</table>
+<script>
+    document.getElementById("aw").innerHTML = window.screen.availWidth ;
+    document.getElementById("ah").innerHTML = window.screen.availHeight ;
+    document.getElementById("sw").innerHTML = window.screen.width;
+    document.getElementById("sh").innerHTML = window.screen.height;
+    document.getElementById("cd").innerHTML = window.screen.colorDepth;
+</script>
+</body>
+</html>
