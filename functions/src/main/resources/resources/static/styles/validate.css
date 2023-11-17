@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+
+/* this is a pseudo-class and will give an auto message that invalid input if not valid*/
+input:invalid{
+	border: 2px dashed red;
+}
+
+input:invalid:required{
+	background-image: linear-gradient(to right, pink, lightgreen);
+}
+
+input:valid{
+	border: 2px solid black;
+}

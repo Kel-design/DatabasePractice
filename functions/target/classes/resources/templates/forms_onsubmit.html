@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Form Events </title>
+    <script>
+      function validate() {
+        const inputValue = document.getElementById("name").value;
+        alert(inputValue);
+        return true
+      }
+    </script>
+  </head>
+  <body>
+    <form name="Name" onsubmit="return validate()">
+      <label>
+        Name: <input name="userInput" id="name">
+      </label><br><br>
+      <input type="submit" value="submit">
+    </form>
+  </body>
+</html>

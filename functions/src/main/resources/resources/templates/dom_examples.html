@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+      function editHTML() {
+        document.getElementById('mylocation').innerHTML = "Your location is USA.";
+      }
+    </script>
+  </head>
+  <body>
+    <form name="myForm">
+      <input type="button" value="Show My Location" onClick="editHTML()">
+      <h3>Your location will show below, please click on the button.</h3>
+      <div id="mylocation"></div>
+    </form>
+  </body>
+</html>

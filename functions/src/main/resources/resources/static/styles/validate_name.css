@@ -1,0 +1,12 @@
+@charset "ISO-8859-1";
+
+label {
+	
+	display: block;
+	margin-top: 1em;
+}
+
+input:valid,
+textarea:valid{
+	background-color: palegreen;
+}

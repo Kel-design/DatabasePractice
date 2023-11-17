@@ -1,0 +1,12 @@
+<html>
+  <head><title>Javascript Events</title></head>
+  <body>
+    <label for="input1">Enter something here</label>
+    <input type="text" id="input1" onfocus="focusEvent()" />
+    <script>
+      function focusEvent() {
+        document.getElementById("input1").style.background = "aqua";
+      }
+    </script>
+   </body>
+</html>
