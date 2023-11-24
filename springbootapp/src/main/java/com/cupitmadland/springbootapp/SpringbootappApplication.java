@@ -17,12 +17,12 @@ public class SpringbootappApplication {
 		cust.setUsername("msmith");
 		cust.setPassword("12345");
 		
-		System.out.println(cust.getUsername() + " \n " cust.getPassword());
+		System.out.println(cust.getUsername() + " \n " + cust.getPassword());
 		
 		//use constructor with fields to build object
 		
 		Customer cust2 = new Customer("maryts", "5678");
-		System.out.println(cust2.getUsername() + " \n " cust2.getPassword());
+		System.out.println(cust2.getUsername() + " \n " + cust2.getPassword());
 	}
 
 }
